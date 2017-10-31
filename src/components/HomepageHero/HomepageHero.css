@@ -1,0 +1,22 @@
+.hero {
+    background: hsl(216, 100%, 50%);
+    height: 35em;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.hero-center {
+    position: relative;
+    top: 40%;
+}
+.hero-center > h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.homepage-searchbar {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    height: 45px;
+}

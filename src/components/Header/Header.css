@@ -1,0 +1,41 @@
+.header {
+    padding: 1rem 0 1rem 0;
+    align-items: center;
+    background: white;
+    box-shadow: 0 2px 2px hsla(0, 0%, 80%, 0.5);
+    width: 100%;
+}
+.header > .container {
+    display: flex;
+}
+.logo > h1 {
+    margin: 0;
+    color: hsl(216, 100%, 50%);
+}
+.search-bar {
+    height: 36px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.header-button {
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-right: 0.4rem;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0 , 0%, 20%);
+}
+
+.header-button:hover {
+    font-weight: bold;
+}
+
+.post-listing {
+    width: 120px;
+    color: white;
+    background: hsl(216, 100%, 50%);
+    border-radius: 5px;
+}

@@ -1,0 +1,11 @@
+.rad-placement {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 30px;
+    height: 100px;
+    background: hsl(216, 100%, 50%);
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+
+}

@@ -1,0 +1,20 @@
+.featured-listings {
+    margin: 1rem auto;
+    border-radius: 5px;
+    background: none;
+}
+
+.listings {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.featured-listings-heading {
+    color: hsl(0, 0%, 30%);
+    padding-left: 0.2rem;
+    padding-bottom: 0.4rem;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 600;
+}

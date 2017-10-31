@@ -1,0 +1,91 @@
+.product-page {
+    margin: 4rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    background: hsl(0, 0%, 100%);
+}
+
+.product-content {
+    display: flex;
+}
+.product-title {
+    font-size: 2rem;
+    color: hsl(0, 0%, 30%);
+}
+.product-info > span {
+    font-weight: 600;
+}
+
+.product-image {
+    border-radius: 5px;
+    height: 400px;
+    background: powderblue;
+    text-align: center;
+}
+.product-photo {
+    height: 100%;
+}
+.product-main {
+    height: 600px;
+}
+.product-side {
+    height: 600px;
+}
+
+.product-price {
+    text-align: center;
+    background: hsl(190, 60%, 50%);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    color: hsl(0, 0%, 95%);
+    border-radius: 5px;
+}
+
+.product-poster-details {
+    border-radius: 5px;
+    background: white;
+    margin: 1rem auto;
+    overflow: hidden;
+    box-shadow: 0px 1px 0 1px hsl(0, 0%, 80%);
+}
+
+.product-poster-detail-heading {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.6rem;
+    background: hsl(214, 100%, 50%);
+    color: white;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    
+}
+
+.product-poster-detail-list {
+    padding: 0;
+    margin: 0;
+}
+
+.product-poster-detail {
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid hsla( 0, 0%, 50%, 0.3);
+}
+
+.product-poster-detail:last-child {
+    border: none;
+}
+
+.map {
+    width: 100%;
+    height: 200px;
+    background: powderblue;
+    text-align: center;
+    font-weight: 600;
+    color: hsl( 0, 0%, 95%);
+    border-radius: 5px;
+    padding: 1rem;
+}

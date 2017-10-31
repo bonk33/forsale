@@ -1,0 +1,51 @@
+.homepage {
+    display: flex;
+    background: none;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+.homepage-side {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 250px;
+}
+
+.homepage-main {
+    flex-basis: 3;
+    background: paleblue;
+    width: 730px;
+    margin: 0 auto;
+}
+
+
+.homepage-listings {
+    width: 666px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+}
+.hp-listing-heading {
+    font-size: 2rem;
+    border-bottom: 2px solid hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 30%);
+}
+.hp-listing-tabs {
+    text-align: center;
+    border-bottom: 1px solid hsla(0, 0%, 90%, 0.5);
+}
+.tab {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    background: hsl(0, 0%, 95%);
+    border-radius: 10px 10px 0 0;
+    font-size: 1.2rem;
+    border: none;
+    color: hsl( 0, 0%, 70%);
+    font-weight: 600;
+    z-index: 2;
+}
+.tab.highlight {
+    color: hsl(120, 50%, 50%);
+}

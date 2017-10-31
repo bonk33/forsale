@@ -1,0 +1,82 @@
+.listing-card {
+    position: relative;
+    width: 13rem;
+    height: 18rem;
+    margin: 0.5rem;
+    background: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-shadow: 0 1px 0 1px hsl(0, 0%, 80%);
+}
+
+.listing-card a {
+    text-decoration: none;
+}
+
+.listing-card-image {
+    width: 100%;
+    height: 9rem;
+    background: powderblue;
+    display: relative;
+    text-align: center;
+}
+
+.listing-photo {
+    height: 100%;
+}
+
+.listing-card-price {
+    color: hsl(180, 60%, 50%);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.listing-card-details {
+    padding-left: 1.1rem;
+}
+
+.listing-card-name {
+    margin:0.5rem 0 0.5rem 0;
+    font-size: 1rem;
+}
+
+.listing-card-category {
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.listing-card-name > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 30%);
+}
+
+.listing-card-category > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 60%);
+}
+
+.listing-card-foot {
+    font-size: 0.7rem;
+    text-align: center;
+    position: absolute;
+    color: hsl(0, 0%, 60%);
+    bottom: 0;
+    border-top: 1px solid hsla(0, 0%, 90%, 0.5);
+    background: hsl(0, 0%, 100%);
+    width: 100%;
+    padding: 10px;
+}
+
+.listing-card-foot span {
+    color: hsl(0, 0%, 50%);
+    font-weight: bold;
+}
+
+.listing-card-foot a {
+    text-decoration: none;
+    color: hsl(0, 0%, 50%);
+}

@@ -1,0 +1,26 @@
+.listing-panel {
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    background: white;
+}
+
+.panel-content {
+    display: flex;
+    background: white;
+}
+
+.panel-main {
+    border: 2px solid #eee;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 800px;
+    background: hsl(150, 50%, 90%);
+}
+
+.panel-side {
+    border: 2px solid #eee;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background: hsl(30, 50%, 90%);
+}
+

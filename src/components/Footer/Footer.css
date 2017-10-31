@@ -1,0 +1,28 @@
+.footer {
+    color: white;
+    background: hsl(199, 69%, 74%);
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    list-style: none;
+    margin-right: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    font-weight: bold;
+}

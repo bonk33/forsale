@@ -1,0 +1,82 @@
+.detail-listing-card {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-shadow: 0 1px 0 1px hsl(0, 0%, 80%);
+    border-radius: 5px;
+    margin: 5px;
+    background: hsl(0, 0%, 100%);
+}
+
+.detail-listing-card-image {
+    width: 35%;
+    height: 200px;
+    background: powderblue;
+    text-align: center;
+    display: relative;
+}
+
+.detail-listing-photo {
+    height: 100%;
+}
+
+.detail-listing-right {
+    position: relative;
+    width: 65%;
+}
+
+.detail-listing-card-price {
+    color: hsl(190, 60%, 50%);
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.detail-listing-card-details {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.detail-listing-card-name {
+    margin:0.5rem 0 0.5rem 0;
+}
+
+.detail-listing-card-category {
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.detail-listing-card-name > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 30%);
+}
+
+.detail-listing-card-category > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 60%);
+}
+
+.detail-listing-card-foot {
+    font-size: 0.8rem;
+    text-align: center;
+    position: absolute;
+    color: hsl(0, 0%, 60%);
+    bottom: 0;
+    border-top: 1px solid hsla(0, 0%, 90%, 0.5);
+    background: hsl(0, 0%, 96%);
+    width: 100%;
+    padding: 10px;
+}
+
+.detail-listing-card-foot span {
+    color: hsl(0, 0%, 50%);
+    font-weight: bold;
+}
+
+.detail-listing-card-foot a {
+    text-decoration: none;
+    color: hsl(0, 0%, 50%);
+}
